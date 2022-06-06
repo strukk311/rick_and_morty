@@ -1,0 +1,8 @@
+@import './styles/utils';
+
+.App {
+  min-height: 100vh;
+  font-family: 'Yusei Magic', sans-serif;
+  // background-color: $dark-blue;
+  background: linear-gradient(to right,  #77D653, #67C64C, #C3F295, #67C64C, #77D653);
+}

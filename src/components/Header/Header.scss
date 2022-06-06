@@ -1,0 +1,12 @@
+@import '../../styles/utils';
+
+.Header {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  // background-color: $lime-green;
+  background-color: $dark-blue;
+  @include green-shadow;
+}

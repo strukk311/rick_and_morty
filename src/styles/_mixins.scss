@@ -1,0 +1,4 @@
+@mixin green-shadow {
+  // box-shadow: 0 0 10px 3px $shadow-green;
+  box-shadow: 0 0 10px 3px rgb(29, 78, 128);
+}

@@ -1,0 +1,14 @@
+@import '../../styles/utils';
+
+.Search {
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 0;
+  font-family: 'Yusei Magic', sans-serif;
+  transition: box-shadow 0.3s;
+  @include green-shadow;
+
+  &:focus {
+    box-shadow: 0 0 10px 5px $shadow-green;
+  }
+}

@@ -1,0 +1,39 @@
+@import '../../styles/utils';
+
+.ModalCharacter {
+  position: fixed;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: #fff;
+  @include green-shadow;
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px 6px;
+    background-color: #fff;
+    font-size: 30px;
+    color: $dark-blue;
+    cursor: pointer;
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__picture {
+    height: 300px;
+  }
+
+  &__list {
+    padding: 15px;
+  }
+}

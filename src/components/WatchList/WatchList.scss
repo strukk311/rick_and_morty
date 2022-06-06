@@ -1,0 +1,56 @@
+@import '../../styles/utils';
+
+.WatchList {
+  margin: 0 auto;
+  max-width: 800px;
+
+  &__title {
+    color: #fff;
+  }
+
+  &__form {
+    margin-bottom: 20px;
+  }
+
+  &__first-row {
+    font-weight: 700;
+  }
+
+  &__button {
+    padding: 5px;
+    width: 100px;
+    border: 0;
+    background-color: #fff;
+    font-family: 'Yusei Magic', sans-serif;
+    transition: box-shadow 0.3s;
+    @include green-shadow;
+
+    &:hover {
+      box-shadow: 0 0 10px 5px $shadow-green;
+    }
+  }
+
+  &__input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    transition: box-shadow 0.3s;
+    outline: none;
+    @include green-shadow;
+
+    &:focus {
+      box-shadow: 0 0 10px 5px $shadow-green;
+    }
+  }
+
+  &__table {
+    width: 100%;
+    background-color: #fff;
+    @include green-shadow;
+
+    td {
+      padding: 7px 15px;
+    }
+  }
+}

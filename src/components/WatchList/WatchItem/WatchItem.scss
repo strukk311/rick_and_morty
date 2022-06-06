@@ -1,0 +1,19 @@
+@import '../../../styles/utils';
+
+.WatchItem {
+  &__input {
+    @include green-shadow;
+  }
+
+  &__button {
+    background-color: $dark-blue;
+    color: #fff;
+    @include green-shadow;
+    transition: box-shadow 0.3s;
+    outline: none;
+
+    &:hover {
+      box-shadow: 0 0 7px 5px $shadow-green
+    }
+  }
+}
